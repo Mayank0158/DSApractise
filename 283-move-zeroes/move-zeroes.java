@@ -14,8 +14,8 @@ class Solution {
         }
 
         while(nonZeroIndex<nums.length){
-            nums[nonZeroIndex] = 0 ;
-            nonZeroIndex++ ;
+            nums[nonZeroIndex++] = 0 ;
+            
         }
          
         
